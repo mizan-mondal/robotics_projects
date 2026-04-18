@@ -34,3 +34,5 @@ assuming you've done everything carefully and correctly, you should have a worki
 keynote: the user access data is hardcoded into the ESP32C3 onto the code itself, so any addition/deletion of any users would require you to add an user in the code itself.
 
 have fun, and don't lock yourself out.
+
+if you want to check the UID of your RFID cards, compile the "check_UID.ino" file onto the ESP, and it'll show the UID on the serial monitor. make sure to set the baud rate to 115200.
