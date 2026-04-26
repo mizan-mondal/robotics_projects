@@ -1,3 +1,5 @@
+TRIGGER WARNING: ***THIS PROJECT WILL REQUIRE YOU TO DRILL A SMALL HOLE THROUGH YOUR DOOR TO PASS THE WIRES***
+
 this folder contains all the necessary files you would need to 3D print in order to make this into a fully furnished product.
 
 let us divide this whole thing into two main parts,
