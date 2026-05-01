@@ -23,7 +23,7 @@
 #define OUTSIDE_BTN_1  20
 #define OUTSIDE_BTN_0  21
 
-//sum shi jus write this, nonchalant screen settings
+//screen settings
 #define SCREEN_WIDTH 128
 #define SCREEN_HEIGHT 64
 #define OLED_RESET -1 
