@@ -1,19 +1,19 @@
-so you wanna build a door lock that uses RFID as the authentication ?
+so you wanna build a door lock that uses RFID authentication ?
 perhaps you landed on the right page
 
 Requirements:
 
 1. RFID-RC522 Scanner + RFID cards/tags
-2. OLED screen (cuz why not)
+2. OLED screen (optional, but highly recommended)
 3. an ESP32C3 (this project uses ESP, but you may opt for Arduino as well), or any microcontroller you prefer (this would require you to change the entire code pa`rtially/completely)
-4. wires (i mean you gotta connect shi right ?)
+4. wires (use thinner wires for better final finished product)
 5. a servo motor(preferably MG90S, or you may opt for any suitable motor drive system you prefer)
-6. a door (duh)
-7. locking mechanism (what the motor drives to lock the gate)
+6. a door (you will require to drill a hole into it)
+7. locking mechanism (3D printable files in the folder 'RFID_security/printables')
 
 optionals:
 
-8. 3D printed case (preferrable for a proper finished look)
+8. 3D printed case (also available in the printables folder)
 
 solder the ESP32C3's pins, proceed to place it on the breadboard in any config you like. place the rest of the components as shown in the circuit diagram. 
 
@@ -35,4 +35,4 @@ keynote: the user access data is hardcoded into the ESP32C3 onto the code itself
 
 have fun, and don't lock yourself out.
 
-if you want to check the UID of your RFID cards, compile the "check_UID.ino" file onto the ESP, and it'll show the UID on the serial monitor. make sure to set the baud rate to 115200.
+if you want to check the UID of your RFID cards, compile the "check_UID.ino" file onto the ESP, and it'll show the UID on the serial monitor. make sure to set the baud rate to 115200, and go to 'Tools' -> "USB CDC on Boot" to 'Enabled'.
